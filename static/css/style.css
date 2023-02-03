@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+  
+body {
+  height: 100vh;
+}
+
+header li {
+   display: inline; 
+  margin-right: 66px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.box {
+  border: 1px solid #000;
+  width: 333px;
+  padding: 11px 11px 21px 11px;
+  margin: 0 auto;
+  margin-top: 160px;
+   margin-left: 126px; 
+}
+
+.box h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  margin-top: 26.23px;
+}
+.box p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000;
+  margin-top: 18.48px;
+  margin-left:0;
+}
+main {
+  padding-right: 110px;
+}
+.cards{
+  display: flex;
+}
+button {
+  margin-left: 342px;
+  margin-top: 23px;
+  padding: 6px 26px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+button:hover{
+  background-color: lightskyblue;
+  color:#fff;
+  border: none;
+}
+
+h3{
+font-family: Open Sans, "Helvetica Neue",;
+font-size: 24px;
+font-weight: bold;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+margin-top:72px;
+margin-left: 35px;
+}
+.flex{
+  display: flex;
+   gap:187px; 
+   justify-content: center;
+}
+ .dot{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+ .flex ul{
+  padding-bottom: 118px;
+  margin-top: 62px;
+} 
+
+/* contact  */
+
+section h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-top: 183px;
+  text-align: center;
+  font-family: Poppins;
+  letter-spacing: 0em;
+  color: #7D0000;
+  margin-bottom: 117px;
+}
+
+ p, 
+address,
+email {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  margin-top: 28px;
+  color: #000;
+  margin-left: 175px;
+}
+ email {
+  text-decoration: underline;
+} 
+address{
+  text-transform: capitalize;
+}
+
+/* About */
+
+.adress {
+  margin-top: 100px;
+  padding-bottom: 355px;
+}
+.text {
+  width: 775px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h1{
+  color:#7D0000;
+}
